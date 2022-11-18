@@ -51,7 +51,7 @@ def order_latte():
 
 def order_mocha():
   while True:
-    res=input("Would you like to try our limited-edition peppermint mocha?\n[a] Sure!\n[b] Maybe next time!\n>")
+    res=input("Would you like to try our limited edition peppermint mocha?\n[a] Sure!\n[b] Maybe next time!\n>")
     if res=='a':
       return 'peppermint mocha'
     elif res=='b':
